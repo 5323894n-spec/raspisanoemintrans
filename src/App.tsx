@@ -663,7 +663,7 @@ export default function App() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === 'admin123' || password === 'transport2024') {
+    if (password === 'trans2026') {
       setIsAuthenticated(true);
       localStorage.setItem('auth', 'true');
     } else {
